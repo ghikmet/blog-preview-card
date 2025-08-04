@@ -5,8 +5,9 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [The challenge](./design/active-states.jpg)
+  - [Screenshot](./assets/images/Screenshot_Mobile.png)
+  - [Screenshot](./assets/images/Screenshot_Desktop.png)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
