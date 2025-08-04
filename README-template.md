@@ -5,14 +5,16 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
+  - [The challenge](./design/mobile-design.jpg)
+  - [The challenge](./design/desktop-design.jpg)
   - [The challenge](./design/active-states.jpg)
   - [Screenshot](./assets/images/Screenshot_Mobile.png)
   - [Screenshot](./assets/images/Screenshot_Desktop.png)
-  - [Links](#links)
+  - [Links](https://ghikmet.github.io/blog-preview-card/)
 - [My process](#my-process)
-  - [Built with](#built-with)
+  - [Built with](Semantic HTML5 markup, BEM Methodology, CSS custom properties, Flexbox, Mobile-first workflow)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
+  - [Continued development](First of all, I want to master my CSS skills.)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -29,20 +31,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./assets/images/Screenshot_Mobile.png)
+![](./assets/images/Screenshot_Desktop.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://ghikmet.github.io/blog-preview-card/)
 
 ## My process
 
@@ -51,13 +46,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -85,27 +74,18 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+First of all, I want to master my CSS skills.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Example resource 1](https://en.bem.info/methodology/) - This helped me to use BEM Methodology.
+- [Example resource 2](https://www.youtube.com/watch?v=x4u1yp3Msao) - This Youtube video "A practical guide to responsive web design" created by Kevin Powel helped me to create responsive website.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Add your name here](https://ghikmet.github.io/blog-preview-card/)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ghikmet)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I want to thank 2 YouTubers - Kevin Powel and Brad Travesy, whose channels I visit from time to time and watch their great and very useful videos that help me in studying Frontend Web Development.
