@@ -9,24 +9,36 @@
   <title>Frontend Mentor | Blog preview card</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  
+<body>  
   <div class="card">
     <header class="header container">
-      <input type="checkbox" id="header__navbar_toggle" class="header__navbar_toggle">
-      <nav class="header__navbar">
+      <h3 class="header__logo">Blog Preview Card</h3>      
+      <button 
+         id="header__navbar_toggle" 
+         class="header__navbar_toggle" 
+         aria-controls="header__navbar"
+         aria-label="Toggle navigation menu"
+       >
+         <span class="header__navbar_toggle_label_span"></span>
+       </button>
+     
+      <nav id="header__navbar" class="header__navbar hidden">
         <ul class="header__list">
-          <li class="header__list_item"><a href="#home" class="header__link">Home</a></li>
-          <li class="header__list_item"><a href="#blog" class="header__link">Blog</a></li>
-          <li class="header__list_item"><a href="#about" class="header__link">About</a></li>
+          <li class="header__list_item">
+            <a href="#home" class="header__link">Home</a>
+          </li>
+          <li class="header__list_item">
+            <a href="#blog" class="header__link">Blog</a>
+          </li>
+          <li class="header__list_item">
+            <a href="#about" class="header__link">About</a>
+          </li>
         </ul>
       </nav>
-      <label for="header__navbar_toggle" class="header__navbar_toggle_label">
-        <span class="header__navbar_toggle_label_span"></span>
-      </label>
-  </header>
+    </header>
+
     <div class="card__blog_image container">
-      <div class="card__blog_image_overlay container"></div>
+      <div class="card__blog_image_blur container"></div>
     </div>    
 
     <main class="content container">
@@ -43,5 +55,6 @@
       <h2 class="footer__author_name">Greg Hooper</h2>
     </footer>
   </div>
+  <script src="./script.js"></script>
 </body>
 </html>
