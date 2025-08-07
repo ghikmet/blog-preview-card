@@ -36,7 +36,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0;
     border-radius: 0.5rem;
     box-shadow: 8px 8px 0px var(--primary-text-color);
     border: 1px solid var(--primary-text-color);
@@ -71,7 +70,7 @@ body {
     position: absolute;
     top: 0.4rem;
     left: 0.75rem;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 150%;
 }
 
@@ -88,19 +87,19 @@ body {
 }
 
 .hidden {
-  display: none;
+    visibility: hidden;
 }
 
 .header__navbar_toggle {
   position: absolute;
   top: 1.8rem;
   right: 0.5rem;
-  display: block;
   width: 10%;
   height: 0.313rem;
   border-radius: 0.313rem;
   margin-bottom: 0.313rem;
-  border: none;
+  border: 0;
+  cursor: pointer;
   background-color: var(--primary-background-color);
 }
 
@@ -184,12 +183,11 @@ body {
 .content {
     height: 10.813rem;
     position: absolute;
-    top: 15rem;
+    top: 14rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 0;
 }
 
 .content__category {
@@ -263,7 +261,7 @@ body {
     
     .card {
         width: 24rem;
-        height: 32.625rem;
+        min-height: 32.625rem;
     }
 
     .container {
@@ -316,7 +314,7 @@ body {
 
     .content {
         height: 12.125rem;
-        margin: 0 1.5rem 0;
+        margin: 1.5rem;
     }
 
     .content__category {
