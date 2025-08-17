@@ -36,8 +36,5 @@ function showMenu() {
         firstLink.focus();
     }else {
         navMenu.classList.add('hidden');
-    }
-    
+    }    
 }
-
-document.getElementById('header__navbar_toggle').addEventListener('click', showMenu);
