@@ -5,15 +5,21 @@ const firstLink = document.getElementById('home');
 
 toggleButton.addEventListener('click', () => {
     const isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
-    toggleButton.setAttribute('aria-expanded', String(!isExpanded));
-    navMenu.classList.toggle('hidden');
+    toggleButton.setAttribute('aria-expanded', String(!isExpanded)); // Update ARIA state
+    navMenu.classList.toggle('hidden'); // Show/hide menu visually
+  });
 
-    if (navMenu.classList.contains('hidden')) {
-        toggleButton.setAttribute('aria-expanded', 'false');
-    }else {
-        toggleButton.setAttribute('aria-expanded', 'true');
-    }
-});
+// toggleButton.addEventListener('click', () => {
+//     const isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
+//     toggleButton.setAttribute('aria-expanded', String(!isExpanded));
+//     navMenu.classList.toggle('hidden');
+
+//     if (navMenu.classList.contains('hidden')) {
+//         toggleButton.setAttribute('aria-expanded', 'false');
+//     }else {
+//         toggleButton.setAttribute('aria-expanded', 'true');
+//     }
+// });
 
 navLinks.forEach((link) => {
     if (link.href === window.location.href) {
