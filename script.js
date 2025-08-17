@@ -1,7 +1,6 @@
 const toggleButton = document.getElementById('header__navbar_toggle');
 const navMenu = document.getElementById('header__navbar');
-const navLinks = document.querySelectorAll('.header__link');
-const firstLink = document.getElementById('home');
+
 
 toggleButton.addEventListener('click', () => {
     const isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
@@ -9,17 +8,8 @@ toggleButton.addEventListener('click', () => {
     navMenu.classList.toggle('hidden'); // Show/hide menu visually
   });
 
-// toggleButton.addEventListener('click', () => {
-//     const isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
-//     toggleButton.setAttribute('aria-expanded', String(!isExpanded));
-//     navMenu.classList.toggle('hidden');
+const navLinks = document.querySelectorAll('.header__link');
 
-//     if (navMenu.classList.contains('hidden')) {
-//         toggleButton.setAttribute('aria-expanded', 'false');
-//     }else {
-//         toggleButton.setAttribute('aria-expanded', 'true');
-//     }
-// });
 
 navLinks.forEach((link) => {
     if (link.href === window.location.href) {
@@ -35,6 +25,8 @@ window.addEventListener('load', () => {
         homePageLink.setAttribute('aria-current', 'page');
     }
 });
+
+const firstLink = document.getElementById('home');
 
 function showMenu() {
     if (aria-expanded === 'false') {
