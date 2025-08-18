@@ -81,11 +81,24 @@ body {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    position: relative;
-    
+    padding-left: 11px;    
 }
 
-#header__navbar_toggle div {
+/* Visible focus outline for keyboard users */
+#header__navbar_toggle:focus {
+  outline: 3px solid #005fcc; /* High contrast outline */
+  outline-offset: 2px;
+}
+
+.hamburger-line {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  background-color: var(--secondary-background-color);
+}
+
+/* #header__navbar_toggle div {
     width: 1.875rem;
     height: 0.25rem;
     background-color: var(--secondary-background-color);
@@ -119,7 +132,7 @@ body {
 #header__navbar_toggle[aria-expanded='true'] .line3 {
     top: 45%;
     transform: translate(-50%, -50%) rotate(-45deg);
-}
+} */
 
 .header__container {
     background-color: var(--blue-background-color);
