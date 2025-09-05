@@ -5,8 +5,9 @@ const navbar = document.getElementById('header__navbar');
 
 toggleButton.addEventListener('click', () => {
     const isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
-    toggleButton.setAttribute('aria-expanded', String(!isExpanded)); // Update ARIA state
-    navbar.classList.toggle('hidden') = isExpanded; // Show/hide menu
+    toggleButton.setAttribute('aria-expanded', String(!isExpanded));
+    navMenu.classList.toggle('hidden');
+    navMenu.setAttribute('aria-hidden', String(isExpanded));
   });
 
 const navLinks = document.querySelectorAll('.header__link');
