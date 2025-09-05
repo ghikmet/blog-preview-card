@@ -35,13 +35,13 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
-const firstLink = document.getElementById('home');
+// const firstLink = document.getElementById('home');
 
-function showMenu() {
-    if (aria-expanded === 'false') {
-        navMenu.classList.remove('hidden');
-        firstLink.focus();
-    }else {
-        navMenu.classList.add('hidden');
-    }    
-}
+// function showMenu() {
+//     if (aria-expanded === 'false') {
+//         navMenu.classList.remove('hidden');
+//         firstLink.focus();
+//     }else {
+//         navMenu.classList.add('hidden');
+//     }    
+// }
