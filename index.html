@@ -15,7 +15,7 @@
     <header id="header__content" class="header__content container">
         <div class="header__container">            
             <a href="index.html" id="header__logo" class="header__logo">Blog Preview Card</a>
-            <button type="button" id="header__navbar_toggle" class="header__navbar_toggle"
+            <button tabindex="-1" aria-hidden="true" type="button" id="header__navbar_toggle" class="header__navbar_toggle"
                 aria-expanded="false"
                 aria-controls="header__navbar"
                 title="Toggle navigation"
@@ -25,9 +25,9 @@
                 <span class="hamburger-line"></span>
             </button>
         </div>
-        <nav id="header__navbar" class="header__navbar container hidden" aria-hidden="true">
+        <nav id="header__navbar" class="header__navbar container hidden" aria-hidden="true" tabindex="-1" aria-disabled="true">
             <ul class="header__list">
-                <li class="header__list_item"><a href="index.html" id="home" class="home header__link">Home</a></li>
+                <li class="header__list_item"><a href="#home" tabindex="-1" aria-hidden="true" id="home" class="home header__link">Home</a></li>
                 <li class="header__list_item"><a href="blog.html" class="header__link">Blog</a></li>
                 <li class="header__list_item"><a href="about.html" class="header__link">About</a></li>
             </ul>
