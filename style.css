@@ -37,7 +37,7 @@ body {
     margin: 9.75rem 1.5rem 9.688rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    /* gap: 1rem; */
     border-radius: 0.625rem;
     overflow: hidden;
     box-shadow: 8px 8px 0px var(--primary-text-color);
