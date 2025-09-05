@@ -86,8 +86,6 @@ body {
     transition: .5s ease;
 }
 
-.header__link:focus,
-.header__link[aria-current="page"]:focus,
 #header__navbar_toggle:focus {
   outline: 3px solid #005fcc;
   outline-offset: 2px;
