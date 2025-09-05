@@ -13,7 +13,7 @@
     --primary-text-color: hsl(0, 0%, 7%);
     --secondary-text-color: hsla(0, 0%, 35%, 0.8);
     --third-background-color: 	hsla(0, 0%, 7%, .4);
-    --blue-background-color: hsl(203, 92%, 19%);
+    --blue-background-color: hsl(203, 92%, 58%);
     --lightblue-text-color: hsl(199, 99%, 55%);
 }
 
@@ -67,14 +67,13 @@ body {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    padding-left: 11px;
-    position: relative;    
+    position: relative;   
 }
 
 #header__navbar_toggle span {
     width: 30px;
     height: 4px;
-    background-color: var(--secondary-background-color);
+    background-color: var(--blue-background-color);
     margin: 3px;
     border-radius: 5px;
     position: absolute;
@@ -97,7 +96,7 @@ body {
 
 
 #header__navbar_toggle span:nth-of-type(1) {
-    top: 27%;
+    top: 25%;
 }
 
 #header__navbar_toggle span:nth-of-type(3) {
@@ -120,7 +119,7 @@ body {
 }
 
 .header__container {
-    background-color: var(--blue-background-color);
+    background-color: var(--primary-background-color);
     width: calc(100% - 3rem);
     height: 5.375rem;
     position: absolute;
@@ -137,12 +136,17 @@ body {
 
 .header__logo {
     width: 70%;
-    text-decoration: none;
-    color: var(--secondary-background-color);
-    font-size: 1.5rem;
-    font-weight: 400;
-    padding-bottom: 0.313em;
-    font-family: 'Red Hat Text', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 2.5rem;
+}
+
+.card__text {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    font-size: 1.4rem;
+    z-index: 11;
+    font-family: 'Figtree', sans-serif;
+    color: var(--primary-text-color);
 }
 
 .header__list {
