@@ -27,8 +27,14 @@ window.addEventListener('load', () => {
     }
 });
 
-const firstLink = document.getElementById('home');
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+        navMenu.classList.add('hidden');
+        toggleButton.setAttribute('aria-expanded', 'false');
+    }
+});
 
+const firstLink = document.getElementById('home');
 
 function showMenu() {
     if (aria-expanded === 'false') {
