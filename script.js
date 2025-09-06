@@ -2,6 +2,7 @@ const toggleButton = document.getElementById('header__navbar_toggle');
 const navMenu = document.getElementById('header__navbar');
 // const navbar = document.getElementById('header__navbar');
 
+if (toggleButton) {
 toggleButton.addEventListener('click', () => {
     const isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
     if (isExpanded) {
@@ -14,6 +15,10 @@ toggleButton.addEventListener('click', () => {
         navMenu.setAttribute('aria-hidden', 'false');
     }
 });
+
+} else {
+    console.warn('toggleButton element not found');
+}
 
 
 // toggleButton.addEventListener('click', () => {
